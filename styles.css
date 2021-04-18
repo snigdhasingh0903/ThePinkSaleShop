@@ -1,12 +1,15 @@
 #shop{
   background-color:#ff75a0;
 }
+body{
+  font-family: 'Cinzel', serif;
+}
 h1{
 font-family: 'Cinzel', serif;
 font-size: 5rem;
 padding-left: 20%;
 padding-right: 20%;
-padding-top: 20%;
+padding-top: 10%;
 padding-bottom: 0;
 color:#fff;
 margin-bottom: 0;
@@ -50,4 +53,32 @@ h3{
 .but2{
   margin-top: 10%;
   margin-left:50%;
+}
+.custom-shape-divider-bottom-1618722718 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1618722718 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 138px;
+}
+
+.custom-shape-divider-bottom-1618722718 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1618722718 svg {
+        width: calc(100% + 1.3px);
+        height: 138px;
+    }
 }
